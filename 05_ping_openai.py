@@ -1,18 +1,19 @@
 from dotenv import load_dotenv
 import openai
-
+import requests
 import os
 
-api_key = os.getenv('API_KEY')
+# Load API key from environment variables
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
 
-# Load environment variables from .env file
-load_dotenv("openai.env")
+# print(os.getenv('OPENAI_API_KEY')) ## Debugging information
 
-# Get API key from environment variables
-api_key = os.getenv('API_KEY')
-
-# Set the API key
+# Assign the API key to openai
 openai.api_key = api_key
+
+# Setup the API URL
+url = "https://api.openai.com/v1/completions"
 
 # Define the prompt
 message = [

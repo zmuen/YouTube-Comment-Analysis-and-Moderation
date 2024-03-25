@@ -6,12 +6,15 @@ from dotenv import load_dotenv
 import time
 import re
 
-# Load environment variables
-load_dotenv("openai.env")
+# Load API key from environment variables
+load_dotenv()
+api_key = os.getenv('OPENAI_API_KEY')
 
-# Get API key
-api_key = os.getenv('API_KEY')
+# Assign the API key to openai
 openai.api_key = api_key
+
+# Setup the API URL
+url = "https://api.openai.com/v1/completions"
 
 # Connect to SQLite database
 conn = sqlite3.connect('comments.db')

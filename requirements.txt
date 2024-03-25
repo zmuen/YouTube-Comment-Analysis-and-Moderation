@@ -1,4 +1,6 @@
 dateparser
 requests
 youtube-comment-downloader
+python-dotenv
+openai==0.28
 nltk
