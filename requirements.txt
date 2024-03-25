@@ -1,0 +1,4 @@
+dateparser
+requests
+youtube-comment-downloader
+nltk

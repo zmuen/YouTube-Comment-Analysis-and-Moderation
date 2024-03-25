@@ -1,0 +1,48 @@
+I require assistance in analyzing and categorizing comments from a YouTube video interview titled "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI | Lex Fridman Podcast". 
+The comments should be classified based on their tone and content into the following categories: positive, negative, angry, spam, and response_required. Below are the definitions for each category along with specific examples:
+
+- positive: Comments expressing satisfaction, admiration, or approval. E.g., "Yes, exactly", "This is a historically important interview." or "Excellent conversation!"
+- negative: Comments with a negative sentiment but not necessarily angry. E.g., "I'm disappointed with the conversation." or "This is boring, I fell asleep whenever he talks."
+- angry: Comments expressing frustration or anger. E.g., "This is unacceptable!" or "This guy is ruining people's lives."
+- spam: Includes promotional messages, irrelevant comments, or comments containing nonsensical strings of characters and unconventional symbols that don't contribute to the discussion. E.g., "Check out this link for amazing deals!" or "😅8j😅8😅"
+- response_required: Comments that ask questions, seek clarification, or otherwise indicate a desire for interaction. E.g., "Could you please interview x?", "Is this x?" or "Why it doesn't include x?"
+
+Please review the following comments and classify them into the mentioned categories. For each comment, return a JSON object indicating whether it's considered angry, spam, negative, and/or necessitates a reply. A comment can belong to more than one category. Here's the format I'm looking for:
+
+{
+  "positive": true/false,
+  "negative": true/false,
+  "angry": true/false,
+  "spam": true/false,
+  "response_required": true/false
+}
+
+Below are the comments for classification:
+
+1. AI IS NOTHING COMPARED TO ME, I FUG IT TO IT WITH MY CAPABILITIES,, IT FALLS TO ME TO CLOSE THAT BOOK
+2. Excellent conversation, fascinating stuff, thank you Lex and Sam.
+3. These geeks are going to ruin everything.Thank you for unleashing the beast
+4. Isn’t the question if gpt4 should be open source redundant? Now I feel stupid for asking.\nIf it can be available to everyone it will be… it wasn’t a question. Maybe that’s where the fear stems from
+5. AI is code running on a machine. Self awareness? LOL Are you insane?\nIt is a fucking language model. It is not even a parrot. Not even a dead parrot, to quote Monty Pythons.
+6. I think my cat is conscious - but I don't think my cat could describe it to me, even if it knew human language.\n\nWhat is meant by \"conscious\". I believe a lot of people frame it in terms of the human experience.\nI personally would not expect AI to have that experience, it would be different.\n\nBut what even is consciousness? \n\nThe supernatural or perhaps religious view may be that we are imbued with a soul separate from the physical - if that is the case then AI probably can't get there, or maybe it can and we just miss the moment a higher power smuggles a soul in.\n\nThe more atheistic view is we are a bundle of atoms behaving according to physics. If that is the case are we not simply biological computers operating on a carbon build instead of a silicon build, so why is it that our deterministic processing would be conscious, but the silicon one wouldn't be?\n\nI am unaware of us having a physics explanation for the phenomenon of consciousness.\n\nBut Physics does know that our eyes have receptors that take light and turn it into electric signals and send those signals to a bunch of synapses that process those signals in stages to find points of interest to perform further processing on.\nSounds a lot like how AI works to me... but that's us!\n\n\nTo me I think we're in the game of moving the goal post now - GPT would trounce any previous line we had. So now instead we're defining it in terms of coming up with novel ideas.\nWell if that is the line, most of the human race currently is not conscious, we only know what we have been told, we will not be coming up with any new or novel idea.
+7.  Please check vids where two AI plays chess. It is not boring and not draw.
+8.  18:15 If I understand correctly, the model doesn’t have the ability for foresight. I think one possible solution for this issue would be to have two processing layers for the model. \nThe first layer generates the answer fast, but doesn’t yet ”release” it, and then the second layer checks if the answer matches the given input, if the second layer thinks the generated answer is good, it sends it as the final output.\nA ”conscious” and a ”subconscious” mind, so to speak.
+9. It's not exciting. It's just terrifying.
+10. Different people assign different meaning to their life so it's interesting to hear different opinions
+11. 'Disinformation' these days is the label put upon things the government doesn't want people to know. Things which have consistently been proven correct.  If the word was being used for it's actual definition, the government and media would be the worst offenders.  Hearing that term being used in the context of this conversation is deeply concerning.
+12. they will say Sam is the creep that destroyed civilization
+13. They all are or wouldn’t be CEOs.. the incentives are what’s wrong, not the people
+14. The immediate future is either very bright or very dark. Let's hope AGI does not act like Humanity and that Sam is disappointed with how his creation is used.
+15. This guy is ruining people's lives. Industries will be wiped out. There is a problem here. People were not thinking of all the ramifications of this technology----except Elon Musk perhaps.
+16. This host needs more sleep. I fell asleep whenever he talks.
+17. There is only one man right now that I am genuinely jealous of, and thats Lex. He is living and doing exactly what I wish I could. Keep living the dream Lex, love from Canada
+18. Doesn’t seem like a terribly trustworthy fellow, gives supervillain vibes
+19.. sam has come a long way, truly a remarkable human about time he gets his recognition
+20. I remember him from his days at YCombinator, dude is humble af and a realist. He's hella confident but in a way that's far from narcissistic/egoistic. There's a big chance that he'd become the most powerful person ever within a couple of years. I just hope that he don't do a 180 like Elon and develop a god complex and also that he stays politically neutral/unbaised.
+21. pure evil
+22. Subtitles are a must for people who can't listen or who are not English native speakers, as my case.
+23. So far chat GpT is diluted human wisdom fragmented into inaccurate finished sentences, I’m just waiting for AI to turn my shite DV cam films into 4K footage with a Roger Deakins filter and a new choice of lenses 🤓 c’mon already
+24. This is a historically important interview. Hello from the simpler times of March 2023!
+25. 😅8j😅8😅😅😅😅😅😅😅😅
+
+Let's start with the classification.
