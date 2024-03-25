@@ -8,9 +8,7 @@ It include the follwoing components:
 4. Prompt example for sentiment analysis using LLM.
 5. Sample script to ping OpenAI API to receive a response in JSON fomat
 6. Sentiment analysis with OpenAI API
-7. Script to update the database with responses
-8. Script to assign comments to topic categories based on their contents
-9. Visualization for the sentiment analysis with LLM
-10. Set-up requirements file
-11. Script to export a clean JSON dataset of your database
-12. Program that automates the sequential execution of all the previous script files
+7. Visualization for the sentiment analysis with LLM
+8. Set-up requirements file
+9. Script to export a clean JSON dataset of your database
+10. Program that automates the sequential execution of all the previous script files
